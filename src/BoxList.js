@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Box from './Box';
 
 class BoxList extends Component {
     constructor(props){
@@ -8,7 +9,9 @@ class BoxList extends Component {
 
     render() {
         return (
-            <div>hello</div>
+            <div>
+            <Box />
+            </div>
         )
     }
 }
