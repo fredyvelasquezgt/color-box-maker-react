@@ -19,7 +19,10 @@ class NewBoxForm extends Component {
 
             />
 
-            <input />
+            <input 
+                                name="width"
+
+            />
 
 
         </form>
