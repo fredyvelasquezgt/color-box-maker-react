@@ -8,6 +8,8 @@ class App extends Component {
     return (
       <div>
         <Box height={10} width={20} color="purple" />
+        <Box height={10} width={20} color="purple" />
+
       </div>
     );
   }
