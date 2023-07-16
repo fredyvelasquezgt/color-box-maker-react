@@ -8,7 +8,7 @@ class NewBoxForm extends Component {
 
     render() {
         <form onSubmit={}>
-            <label></label>
+            <label>Some Text</label>
             <input />
 
             <input />
