@@ -3,11 +3,11 @@ import React, { Component } from 'react';
 class NewBoxForm extends Component {
 
     handleChange() {
-        
+
     }
 
     render() {
-        <form>
+        <form onSubmit={}>
             <label></label>
             <input />
 
