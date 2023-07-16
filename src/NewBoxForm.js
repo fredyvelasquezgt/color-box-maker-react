@@ -9,7 +9,10 @@ class NewBoxForm extends Component {
     render() {
         <form onSubmit={}>
             <label>Some Text</label>
-            <input />
+            <input
+                name="height"
+            
+            />
 
             <input />
 
