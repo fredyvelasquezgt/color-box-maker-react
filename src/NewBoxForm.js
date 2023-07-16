@@ -1,30 +1,53 @@
 import React, { Component } from 'react';
 
 class NewBoxForm extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {height: '' , width: '', color: ''}
+        this.handleChange = this.handleChange.bind(this)
+    }
 
-    handleChange() {
-
+    handleChange(evt) {
+        this.setState({
+            [evt.target.name]: evt.target.value
+        })
     }
 
     render() {
-        <form onSubmit={}>
-            <label>Some Text</label>
+        return (
+        <form >
+            <div>
+            <label htmlFor="height" >Height</label>
             <input
+                type="text"
                 name="height"
+                value={this.state.height}
+                id="height"
+                onChange={this.handleChange}
             
             />
-
-            <input
+            </div>
+          
+            <div>
+                <label>Width</label>
+                <input
                 name="width"
 
             />
-
-            <input 
+            </div>
+           
+            <div>
+                <label>Color: </label>
+                <input 
                 name="width"
 
             />
-
-
+            </div>
+            
         </form>
+        )
+        
     }
 }
+
+export default NewBoxForm;
