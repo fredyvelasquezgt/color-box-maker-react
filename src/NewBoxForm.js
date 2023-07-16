@@ -13,6 +13,9 @@ class NewBoxForm extends Component {
 
             <input />
 
+            <input />
+
+
         </form>
     }
 }
